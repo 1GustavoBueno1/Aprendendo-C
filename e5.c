@@ -2,7 +2,7 @@
 
 void imprime(int *arr, int tamanho) {
     for (int i = 0; i < tamanho; i++) {
-        printf("%d", arr[i]);
+        printf("%d", *(arr + i));
     }
     printf("\n");
 }
